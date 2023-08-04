@@ -7,7 +7,8 @@ import Display from "../components/Display";
 function Main() {
   return (
     <div>
-        <Navbar></Navbar>
+        <Navbar> </Navbar>
+        <Squares> </Squares>
 
     </div>
   )

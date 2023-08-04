@@ -76,4 +76,29 @@ body{
   margin-left: 755px;
 }
 
+.time{
+  color: white;
+}
+.search{
+  width: 22px;
+}
+
+.games{
+  height: 41px;
+  border-radius: 12px;
+  cursor: pointer;
+  
+}
+.media{
+  height: 41px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.square{
+  height: 81px;
+  border-radius: 22px;
+  
+
+}
+
 
