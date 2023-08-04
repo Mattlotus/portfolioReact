@@ -21,7 +21,7 @@ function Squares() {
         <button className='square'>RESUME</button>
         </div>
         </Link>
-        <Link to='/Exp'>
+        <Link to='/Exp' className='exp'>
         <div>
         <button className='square'> EXP</button>
         </div>
