@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -9,11 +11,24 @@ import React from 'react'
 function Squares() {
   return (
     <div className='squareBar'>
+        <Link to='/Contact' className='contactLink' onClick='' >
+            <div>
         <button className='square'>CONTACT </button>
+        </div>
+        </Link>
+        <Link to='/Resume' className='resumeLink'>
+        <div>
         <button className='square'>RESUME</button>
-        <button className='square'>CODING EXP</button>
+        </div>
+        </Link>
+        <Link to='/Exp'>
+        <div>
+        <button className='square'> EXP</button>
+        </div>
+        </Link>
     </div>
   )
 }
+
 
 export default Squares

@@ -9,6 +9,9 @@ import { AppContext } from './context/app_context';
 import { useContext } from 'react';
 import Squares from './components/Squares'
 import Main from './Pages/Main';
+import Exp from './Pages/Exp';
+import Resume from './Pages/Resume';
+import Contact from './Pages/Contact';
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
 
         <Route path='/' element={<Root/>}/>
         <Route path='/Main' element={<Main/>}/>
+        <Route path='Exp' element={<Exp/>}/>
+        <Route path ='Resume' element = {<Resume/>}/>
+        <Route path='Contact' element={<Contact/>}/>
       </Routes>
       
       
