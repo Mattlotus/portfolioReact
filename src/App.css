@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+a{
+  text-decoration: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +38,42 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-image: url('https://i.ytimg.com/vi/bMxgJbCgPQQ/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.Matthew{
+  width: 322px;
+  height: 322px;
+  border-radius: 532px;
+  border: solid grey;
+  margin-top: 92px;
+
+}
+.title{
+  color: white;
+  margin-top: 72px;
+  font-family: Baskerville ;
+  font-weight: none;
+  
+  
+}
+.name{
+  color: white;
+  font-size: x-large;
+}
+.psPLus{
+  width: 22px;
+
+}
+.nameContainer{
+  display: flex;
+  align-items: center;
+  margin-left: 755px;
+}
+
+

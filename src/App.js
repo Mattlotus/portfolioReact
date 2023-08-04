@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import axios from 'axios';
 import './App.css';
+import { useEffect,useState } from 'react';
+import Root from './Pages/Root';
+import Desktop from './Pages/Main';
+import { Link, useFetcher } from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
+import { AppContext } from './context/app_context';
+import { useContext } from 'react';
+import Squares from './components/Squares'
+import Main from './Pages/Main';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> lets gooo
+      {/* <Root/> */}
+      <Routes>
+
+        <Route path='/' element={<Root/>}/>
+        <Route path='/Main' element={<Main/>}/>
+      </Routes>
+      
+      
+
+      
     </div>
   );
 }
