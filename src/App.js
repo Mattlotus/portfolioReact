@@ -16,7 +16,7 @@ import Contact from './Pages/Contact';
 
 function App() {
   return (
-    <div className="App"> lets gooo
+    <div className="App"> 
       {/* <Root/> */}
       <Routes>
 

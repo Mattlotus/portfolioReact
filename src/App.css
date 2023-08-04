@@ -97,9 +97,38 @@ body{
 .square{
   height: 81px;
   border-radius: 22px;
+  margin: 1em;
+  border-color: silver;
+}
 
+.squareBar{
+  /* border: solid red; */
+  display: flex;
+  margin: 1em;
 
 }
+.languages{
+  width: 100%;
+  height:100%
+}
+.html{
+  color: white;
+}
+.contactContainer{
+  display: flex;
+  align-items: center;
+  margin-top: 130px;
+  margin-left: 522px;
+
+}
+.text{
+  display: flex;
+  color: white;
+  margin-left: 122px;
+  
+}
+
+
 
 
 
