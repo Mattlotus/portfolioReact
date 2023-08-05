@@ -7,7 +7,7 @@ import { Link, useFetcher } from 'react-router-dom';
 import { Route, Routes} from 'react-router-dom';
 import { AppContext } from './context/app_context';
 import { useContext } from 'react';
-import Squares from './components/Squares'
+import Squares from './components/Squares';
 import Main from './Pages/Main';
 import Exp from './Pages/Exp';
 import Resume from './Pages/Resume';

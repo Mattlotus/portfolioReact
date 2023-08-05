@@ -129,7 +129,40 @@ body{
   margin-left: 122px;
   
 }
+.sub{
+  border: solid red;
+  display: flex;
+  justify-content:space-between ;
+  width: 100%;
+  height: 81px;
+  
+}
+.sub2{
+  /* border: solid green; */
+}
+.sub3{
+  border: solid green;
+  display: flex;
+  justify-content: space-around;
+  width: 122px;
+}
+.settings{
+  border: solid blue;
+  
+}
+.gear{
+  background-color: white;
+  width: 22px;
+}
 
+.Ultimate{
+  /* border: solid yellow; */
+  display: flex;
+}
+.matt{
+  width: 22px;
+   border-radius: 22px;
+}
 
 
 
