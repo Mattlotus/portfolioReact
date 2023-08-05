@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div>
         <div>
-            <img src="" alt="" />
+            Git hub link : https://github.com/Mattlotus
         </div>
     </div>
   )

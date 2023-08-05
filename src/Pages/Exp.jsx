@@ -7,7 +7,8 @@ function Exp() {
         <Squares></Squares>
         <div className='codeContainer'>
             <div className='html'>Languages I've Learned</div>
-            <img src="https://contentstatic.techgig.com/thumb/msid-90265114,width-460,resizemode-4/How-CSS-JavaScript-HTML-make-the-best-combo-for-frontend-development.jpg?10356" alt="" className='languages'/>
+            <img src="https://scrimba.com/articles/content/images/2022/11/How-HTML--CSS--and-JavaScript-work-main.png" alt="" className='languages'/>
+            
            
         </div>
     </div>
