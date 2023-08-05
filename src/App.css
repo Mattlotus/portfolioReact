@@ -87,12 +87,17 @@ body{
   height: 41px;
   border-radius: 12px;
   cursor: pointer;
+  color: white;
+  font-size: x-large;
+
   
 }
 .media{
   height: 41px;
   border-radius: 12px;
   cursor: pointer;
+  color: white;
+  background-color: black;
 }
 .square{
   height: 81px;

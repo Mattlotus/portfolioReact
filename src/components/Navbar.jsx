@@ -6,8 +6,9 @@ function Navbar() {
         <div className='sub'>
             
               <div className='sub2'>
-                <button className='games'>Games</button>
-                <button className='media'>Media</button>
+
+                <p className='games'>Games</p>
+                <p className='games'>Media</p>
                 </div>
 
                 <div className='sub3'>

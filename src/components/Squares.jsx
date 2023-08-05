@@ -27,6 +27,10 @@ function Squares() {
       
         </div>
         </Link>
+
+        <img src="https://www.lionbanner.com/wp-content/uploads/2023/02/PNG-LOW-QULITY-1-FOR-WEB-USE.png" alt="" className='square' />
+
+        <img src="https://cdn.akamai.steamstatic.com/steam/apps/661970/header.jpg?t=1625216525" alt="" className='square' />
     </div>
   )
 }
