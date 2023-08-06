@@ -15,6 +15,7 @@ import Contact from './Pages/Contact';
 import Multiverse from './Pages/Multiverse';
 import Spacebattle from './Pages/Spacebattle';
 import Media from './Pages/Media';
+import Practice from './Pages/Practice';
 
 
 
@@ -45,6 +46,7 @@ function App() {
         <Route path='/Multiverse' element ={<Multiverse/>}/>
         <Route path='/Spacebattle' element={<Spacebattle/>}/>
         <Route path='/Media' element={<Media/>}/>
+        <Route path='/Practice' element={<Practice/>}/>
       </Routes>
       
     </div>
