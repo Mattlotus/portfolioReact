@@ -197,7 +197,10 @@ body{
 }
 .spaceContainer{
   display: flex;
-  
+
+}
+.code{
+  color: white;
 }
 
 
