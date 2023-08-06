@@ -129,8 +129,8 @@ body{
   /* border: solid blue; */
   display: flex;
   align-items: center;
-  margin-top: 130px;
-  margin-left: 522px;
+  margin-left: 322px;
+  margin-top: 122px;
 
 }
 .pic{
@@ -207,6 +207,9 @@ body{
 }
 .spaceContainer{
   display: flex;
+  align-items: center;
+  margin-left: 322px;
+  margin-top: 122px;
 
 }
 .code{
