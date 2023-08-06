@@ -149,6 +149,7 @@ body{
 }
 .pic{
   border-radius: 122px;
+  height: 300px;
 }
 .text{
   display: flex;
@@ -199,6 +200,7 @@ body{
 .matt{
   width: 22px;
    border-radius: 22px;
+   
 }
 .matt:hover{
   width: 44px;
@@ -242,6 +244,9 @@ body{
 
 .quote{
   color: white;
+}
+.quote2{
+  color: rgb(228, 88, 228);
 }
 
 

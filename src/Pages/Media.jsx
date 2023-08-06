@@ -29,13 +29,13 @@ function Media() {
         <Navbar></Navbar>
     
         <div className="App">
-      <button onClick={()=> getData()}>Ye Motivation</button>
-      <p>Quote:</p>
+      {/* <button onClick={()=> getData()}>Ye Motivation</button> */}
+      <p className='quote2'>Daily Ye Quotes:</p>
       
       <p className='quote'>{kanyeQuote}</p>
       
     
-      <Kanye></Kanye>
+      <Kanye getData={getData}></Kanye>
 
       
     </div>
