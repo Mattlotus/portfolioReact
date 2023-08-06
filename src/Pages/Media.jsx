@@ -18,6 +18,9 @@ function Media() {
 
                   console.log(response)
   }
+  useEffect(()=>{
+    getData()
+  }, [count])
   return (
 
     
@@ -25,10 +28,21 @@ function Media() {
         <Navbar></Navbar>
     
         <div className="App">
-      <button onClick={()=>setCount(count +1)}>Moitivation</button>
+      <button onClick={()=>setCount(count +1)}>Ye Motivation</button>
       <p>{kanyeQuote?.response}Quote:</p>
       <p>{kanyeQuote?.constructor}</p>
       <Kanye></Kanye>
+
+      {kanyeQuote.map((q, i) => {
+
+let author = q.author.split(",");
+        return (
+          <div className="Fwrapper" key={i}>
+            <div className="qtxt">{q.text}</div>
+            <div className="author">{author[0]}</div>
+          </div>
+        );
+      })}
 
       
     </div>
