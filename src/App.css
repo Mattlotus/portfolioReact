@@ -101,7 +101,7 @@ body{
   background-color: black;
 }
 .square{
-  height: 81px;
+  height: 181px;
   border-radius: 22px;
   margin: 1em;
   border-color: silver;
@@ -117,8 +117,9 @@ body{
 }
 .languages{
   border-radius: 22px;
-  width: 522px;
+  width: 422px;
   height: 50%;
+  margin-right:433px ;
 
   
 }
@@ -211,6 +212,12 @@ body{
   margin-left: 322px;
   margin-top: 122px;
 
+}
+.codeContainer{
+  /* display: flex;
+  align-items: center; */
+  
+  margin-top: 122px;
 }
 .code{
   color: white;
