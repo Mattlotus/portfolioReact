@@ -13,11 +13,10 @@ function Media() {
   const getData = async () => {
 
     const response = await axios.get ('https://api.kanye.rest/')
-                  .then(response => console.log(response.data))
-                  .catch(err => console.log(err))
+    
 
-                  console.log(response.quote)
-                  setkanyeQuote(response?.quote)
+                  console.log(response.data.quote)
+                  setkanyeQuote(response.data.quote)
   }
   useEffect(()=>{
     getData()
