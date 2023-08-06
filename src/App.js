@@ -46,13 +46,7 @@ function App() {
         <Route path='/Spacebattle' element={<Spacebattle/>}/>
         <Route path='/Media' element={<Media/>}/>
       </Routes>
-      {/* <div className="App">
-      <button onClick={()=>setCount(count +1)}>Moitivation</button>
-      <p>{kanyeQuote?.response}Quote:</p>
-      <p>{kanyeQuote?.constructor}</p>
-
       
-    </div> */}
     </div>
   );
 }
