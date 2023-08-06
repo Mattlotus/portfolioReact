@@ -14,6 +14,7 @@ import Resume from './Pages/Resume';
 import Contact from './Pages/Contact';
 import Multiverse from './Pages/Multiverse';
 import Spacebattle from './Pages/Spacebattle';
+import Media from './Pages/Media';
 
 
 
@@ -43,6 +44,7 @@ function App() {
         <Route path='Contact' element={<Contact/>}/>
         <Route path='/Multiverse' element ={<Multiverse/>}/>
         <Route path='/Spacebattle' element={<Spacebattle/>}/>
+        <Route path='/Media' element={<Media/>}/>
       </Routes>
       {/* <div className="App">
       <button onClick={()=>setCount(count +1)}>Moitivation</button>

@@ -91,8 +91,10 @@ body{
   cursor: pointer;
   color: white;
   font-size: x-large;
+}
+.games:hover{
+  color: #61dafb;
 
-  
 }
 .media{
   height: 41px;
@@ -100,6 +102,9 @@ body{
   cursor: pointer;
   color: white;
   background-color: black;
+}
+.media:Hover{
+  color: #61dafb;
 }
 .square{
   height: 170px;
