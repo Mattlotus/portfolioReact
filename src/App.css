@@ -110,8 +110,8 @@ body{
   
 }
 .square:hover{
-  border: solid grey;
-  border-width: 61px;
+  border: solid silver;
+  border-width: 4px;
   height: 300px;
 }
 
