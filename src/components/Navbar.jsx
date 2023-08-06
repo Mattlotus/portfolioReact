@@ -1,14 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Media from '../Pages/Media'
+
+
+
+
 function Navbar() {
   return (
     <div className='Ultimate'>
         <div className='sub'>
             
               <div className='sub2'>
-
+                <Link to='/Main'>
                 <p className='games'>Games</p>
+                </Link>
+
+                <Link to='/Media'>
+                  
                 <p className='games'>Media</p>
+                
+                </Link>
+
                 </div>
 
                 <div className='sub3'>

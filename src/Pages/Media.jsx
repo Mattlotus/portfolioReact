@@ -1,6 +1,8 @@
 import React from 'react'
 import axios from 'axios';
-import './App.css';
+import Navbar from '../components/Navbar';
+import Squares from '../components/Squares';
+
 import { useEffect,useState } from 'react';
 
 function Media() {
@@ -17,7 +19,11 @@ function Media() {
                   console.log(response)
   }
   return (
+
+    
     <div>
+        <Navbar></Navbar>
+        <Squares></Squares>
         <div className="App">
       <button onClick={()=>setCount(count +1)}>Moitivation</button>
       <p>{kanyeQuote?.response}Quote:</p>
