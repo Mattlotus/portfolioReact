@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Squares from '../components/Squares'
 
 function Resume() {
   return (
     <div>
         <div>
-            Git hub link : https://github.com/Mattlotus
+            <Navbar></Navbar>
+            <Squares></Squares>
         </div>
     </div>
   )

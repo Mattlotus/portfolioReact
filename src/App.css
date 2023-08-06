@@ -82,6 +82,7 @@ body{
 }
 .search{
   width: 22px;
+  height: 22px;
 }
 
 .games{
@@ -117,7 +118,7 @@ body{
 }
 .languages{
   border-radius: 22px;
-  width: 422px;
+  width: 452px;
   height: 50%;
   margin-right:433px ;
 
@@ -125,6 +126,7 @@ body{
 }
 .html{
   color: white;
+  margin-right: 422px;
 }
 .contactContainer{
   /* border: solid blue; */
@@ -176,6 +178,7 @@ body{
 .gear{
   background-color: white;
   width: 22px;
+  height: 22px;
 }
 
 .Ultimate{

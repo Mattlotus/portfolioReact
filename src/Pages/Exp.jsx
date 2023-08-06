@@ -9,10 +9,10 @@ function Exp() {
         <Squares></Squares>
       
         <div className='codeContainer'>
-        <p className='html'>Languages I've learned</p>
+        <h2 className='html'>Languages I've learned</h2>
             <div className='html'></div>
           
-            <img src="https://scrimba.com/articles/content/images/2022/11/How-HTML--CSS--and-JavaScript-work-main.png" alt="" className='languages'/>
+            <img src="https://img-c.udemycdn.com/course/750x422/5178116_6858.jpg" alt="" className='languages'/>
             {/* <img src="https://www.pngitem.com/pimgs/m/664-6644509_icon-react-js-logo-hd-png-download.png" alt=""  className='reactPic'/>
              */}
            
