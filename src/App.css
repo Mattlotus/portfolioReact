@@ -75,10 +75,7 @@ body{
   align-items: center;
   margin-left: 755px;
 }
-.codeContainer{
-  display: flex;
-  justify-content: space-around;
-}
+
 
 .time{
   color: white;
