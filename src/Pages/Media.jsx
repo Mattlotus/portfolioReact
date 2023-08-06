@@ -16,7 +16,8 @@ function Media() {
                   .then(response => console.log(response.data))
                   .catch(err => console.log(err))
 
-                  console.log(response)
+                  console.log(response.quote)
+                  setkanyeQuote(response?.quote)
   }
   useEffect(()=>{
     getData()
@@ -28,10 +29,10 @@ function Media() {
         <Navbar></Navbar>
     
         <div className="App">
-      <button onClick={()=>setCount(count +1)}>Ye Motivation</button>
+      <button onClick={()=> getData()}>Ye Motivation</button>
       <p>{kanyeQuote?.response}Quote:</p>
       <p>{kanyeQuote?.constructor}</p>
-      <p>{}</p>
+      <p>{kanyeQuote}</p>
     
       <Kanye></Kanye>
 

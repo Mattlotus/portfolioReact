@@ -6,10 +6,12 @@ function Practice() {
     const [kanyeSays, setKanyeSays] = useState("")
     
     useEffect(()=>{
+        
 
     }, []);
     axios.get('https://api.kanye.rest/').then((res) => {
         setKanyeSays(res.data.says)
+        console.log(res.data.says)
 
     });
 
