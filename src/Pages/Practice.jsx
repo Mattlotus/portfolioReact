@@ -9,13 +9,14 @@ function Practice() {
 
     }, []);
     axios.get('https://api.kanye.rest/').then((res) => {
+        setKanyeSays(res.data.says)
 
     });
 
     return(
         <div>
             <button>Ye Says</button>
-            <p>{kanyeSays}</p>
+            <p className='kanyeSays'>{kanyeSays}</p>
         </div>
     )
     
