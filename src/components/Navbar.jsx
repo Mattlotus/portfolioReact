@@ -8,7 +8,7 @@ function Navbar() {
               <div className='sub2'>
 
                 <p className='games'>Games</p>
-                <p className='games'>Media</p>
+                <p className='games'>Mediaaa</p>
                 </div>
 
                 <div className='sub3'>
