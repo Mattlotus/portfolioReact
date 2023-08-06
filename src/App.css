@@ -95,7 +95,7 @@ body{
   
 }
 .media{
-  height: 41px;
+  /* height: 41px; */
   border-radius: 12px;
   cursor: pointer;
   color: white;
