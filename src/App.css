@@ -107,6 +107,10 @@ body{
   margin: 1em;
   border-color: silver;
   cursor: pointer;
+  
+}
+.square:hover{
+  background-color: transparent;
 }
 
 .squareBar{
