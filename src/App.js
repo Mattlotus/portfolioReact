@@ -12,6 +12,7 @@ import Main from './Pages/Main';
 import Exp from './Pages/Exp';
 import Resume from './Pages/Resume';
 import Contact from './Pages/Contact';
+import Multiverse from './Pages/Multiverse';
 
 
 function App() {
@@ -23,8 +24,9 @@ function App() {
         <Route path='/' element={<Root/>}/>
         <Route path='/Main' element={<Main/>}/>
         <Route path='Exp' element={<Exp/>}/>
-        <Route path ='Resume' element = {<Resume/>}/>
+        <Route path='Resume' element = {<Resume/>}/>
         <Route path='Contact' element={<Contact/>}/>
+        <Route path='/Multiverse' element ={<Multiverse/>}/>
       </Routes>
       
       

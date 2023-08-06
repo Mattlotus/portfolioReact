@@ -1,9 +1,11 @@
 import React from 'react'
 import Squares from '../components/Squares'
+import Navbar from '../components/Navbar'
 
 function Exp() {
   return (
     <div>
+      <Navbar></Navbar>
         <Squares></Squares>
         <div className='codeContainer'>
             <div className='html'>Languages I've Learned</div>
