@@ -29,9 +29,9 @@ function Media() {
     
         <div className="App">
       <button onClick={()=> getData()}>Ye Motivation</button>
-      <p>{kanyeQuote?.response}Quote:</p>
-      <p>{kanyeQuote?.constructor}</p>
-      <p>{kanyeQuote}</p>
+      <p>Quote:</p>
+      
+      <p className='quote'>{kanyeQuote}</p>
     
       <Kanye></Kanye>
 
