@@ -16,7 +16,21 @@ import Multiverse from './Pages/Multiverse';
 import Spacebattle from './Pages/Spacebattle';
 
 
+
 function App() {
+
+  const [kanyeQuote, setkanyeQuote]=useState({})
+  const [count, setCount] =useState(0)
+
+  const getData = async () => {
+
+    const response = await axios.get ('https://api.kanye.rest/')
+                  .then(response => console.log(response.data))
+                  // .then (freeGames => setFreeGames())
+                  .catch(err => console.log(err))
+
+                  console.log(response)
+  }
   return (
     <div className="App"> 
       {/* <Root/> */}
@@ -30,10 +44,13 @@ function App() {
         <Route path='/Multiverse' element ={<Multiverse/>}/>
         <Route path='/Spacebattle' element={<Spacebattle/>}/>
       </Routes>
-      
-      
+      <div className="App">
+      <button onClick={()=>setCount(count +1)}>Moitivation</button>
+      <p>{kanyeQuote?.response}Quote:</p>
+      <p>{kanyeQuote?.constructor}</p>
 
       
+    </div>
     </div>
   );
 }
