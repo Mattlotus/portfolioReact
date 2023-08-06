@@ -13,7 +13,7 @@ function Squares() {
     <div className='squareBar'>
         <Link to='/Contact' className='contactLink' onClick='' >
             <div>
-              <img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/1408/l3bg7nmfPpPzam5jOVlaUFww.jpg" alt="" className='square' />
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Street_Fighter_6_box_art.jpg/220px-Street_Fighter_6_box_art.jpg" alt="" className='square' />
         </div>
         </Link>
         <Link to='/Resume' className='resumeLink'>
@@ -35,7 +35,9 @@ function Squares() {
         </div>
         </Link>
 
-        <img src="https://cdn.akamai.steamstatic.com/steam/apps/661970/header.jpg?t=1625216525" alt="" className='square' />
+          <Link to='/Spacebattle' className='space'>
+        <img src="https://cdn1.epicgames.com/b156c3365a5b4cb9a01a5e1108b4e3f4/offer/EGS_STARWARSBattlefrontIICelebrationEdition_DICE_S2-1200x1600-11d040719a8457bbf36cabbe89b200db.jpg" alt="" className='square' />
+        </Link>
     </div>
   )
 }

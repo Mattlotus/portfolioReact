@@ -13,6 +13,7 @@ import Exp from './Pages/Exp';
 import Resume from './Pages/Resume';
 import Contact from './Pages/Contact';
 import Multiverse from './Pages/Multiverse';
+import Spacebattle from './Pages/Spacebattle';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path='Resume' element = {<Resume/>}/>
         <Route path='Contact' element={<Contact/>}/>
         <Route path='/Multiverse' element ={<Multiverse/>}/>
+        <Route path='/Spacebattle' element={<Spacebattle/>}/>
       </Routes>
       
       

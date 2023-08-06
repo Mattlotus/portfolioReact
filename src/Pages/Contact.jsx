@@ -1,10 +1,12 @@
 import React from 'react'
 import Squares from '../components/Squares'
+import Navbar from '../components/Navbar'
 
 function Contact() {
   return (
 
     <div>
+        <Navbar></Navbar>
          <Squares></Squares>
 
     <div className='contactContainer'>

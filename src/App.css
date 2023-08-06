@@ -178,6 +178,27 @@ body{
 .mvb{
   width: 20%;
 }
+.multiBar{
+  display: flex;
+  align-items: center;
+  margin-left: 322px;
+  margin-top: 122px;
+
+}
+.copy{
+  color: white;
+}
+.hub{
+  color: white;
+}
+.misk{
+  width: 20%;
+  border-radius: 50px;
+}
+.spaceContainer{
+  display: flex;
+  
+}
 
 
 
