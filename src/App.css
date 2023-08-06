@@ -111,6 +111,7 @@ body{
 }
 .square:hover{
   border: solid grey;
+  border-width: 61px;
   height: 300px;
 }
 
