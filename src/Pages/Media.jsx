@@ -7,7 +7,7 @@ import { useEffect,useState } from 'react';
 import Kanye from '../components/Kanye';
 
 function Media() {
-    const [kanyeQuote, setkanyeQuote]=useState({})
+    const [kanyeQuote, setkanyeQuote]=useState('')
   const [count, setCount] =useState(0)
 
   const getData = async () => {
@@ -17,6 +17,7 @@ function Media() {
 
                   console.log(response.data.quote)
                   setkanyeQuote(response.data.quote)
+                  console.log(kanyeQuote)
   }
   useEffect(()=>{
     getData()
@@ -32,6 +33,7 @@ function Media() {
       <p>Quote:</p>
       
       <p className='quote'>{kanyeQuote}</p>
+      
     
       <Kanye></Kanye>
 
