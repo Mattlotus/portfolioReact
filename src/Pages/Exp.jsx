@@ -10,6 +10,7 @@ function Exp() {
         <div className='codeContainer'>
             <div className='html'>Languages I've Learned</div>
             <img src="https://scrimba.com/articles/content/images/2022/11/How-HTML--CSS--and-JavaScript-work-main.png" alt="" className='languages'/>
+            <img src="https://www.pngitem.com/pimgs/m/664-6644509_icon-react-js-logo-hd-png-download.png" alt=""  className='reactPic'/>
             
            
         </div>

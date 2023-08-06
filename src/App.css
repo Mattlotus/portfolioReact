@@ -75,6 +75,10 @@ body{
   align-items: center;
   margin-left: 755px;
 }
+.codeContainer{
+  display: flex;
+  justify-content: space-around;
+}
 
 .time{
   color: white;
@@ -115,8 +119,10 @@ body{
 
 }
 .languages{
-  width: 50%;
+  border-radius: 22px;
+  width: 522px;
   height: 50%;
+
   
 }
 .html{
@@ -130,16 +136,23 @@ body{
   margin-left: 522px;
 
 }
+.pic{
+  border-radius: 122px;
+}
 .text{
   display: flex;
   color: white;
   margin-left: 122px;
   
 }
+.reactPic{
+  width: 222px;
+  border-radius: 52px;
+}
 .sub{
   /* border: solid red; */
   display: flex;
-  justify-content:space-between ;
+  justify-content:space-between;
   width: 100%;
   margin-top: 42px;
   
